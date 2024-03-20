@@ -1,5 +1,5 @@
 <template>
-  <form>
+  <app-form>
     <div class="help">
       <p>This is some help text.</p>
     </div>
@@ -11,11 +11,16 @@
     <div class="buttons">
       <button type="submit">Submit</button>
     </div>
-  </form>
+  </app-form>
+  <app-form></app-form>
 </template>
 
 <script>
+import AppForm from "./components/Form.vue"
 export default {
-  name: "App"
+  name: "App",
+  components: {
+    AppForm,
+  }
 }
 </script>
