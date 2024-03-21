@@ -7,3 +7,4 @@
 <script>
 
 </script>
+<!-- Slots tutorial -->
